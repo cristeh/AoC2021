@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+//O(n)
 func day1ExA(input string) int {
 	lines := strings.Split(input, "\n")
 	if len(lines) < 2 {
@@ -22,6 +23,7 @@ func day1ExA(input string) int {
 	return result
 }
 
+//O(n)
 func day1ExB(input string) int {
 	windowSize := 3
 	lines := strings.Split(input, "\n")
